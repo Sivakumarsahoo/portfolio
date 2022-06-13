@@ -1,0 +1,25 @@
+
+.hero{
+    height: 60vh;
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 2rem;
+        button{
+            cursor: pointer;
+        }
+    }
+    .title{
+        h1{
+            color: white;
+            font-size: 6vw;
+            
+        }
+        span{
+            @include gradientText;
+        }
+    }
+
+}
